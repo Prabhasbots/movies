@@ -13,9 +13,9 @@ def is_enabled(value, default):
 #---------------------------------------------------------------
 #---------------------------------------------------------------         ,
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '21484'))
-API_HASH = environ.get('API_HASH', 'db6286a041adf07ef4244e')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7807I9ygow9sLqNQuI7hsWPm5FLNfBr9c')
+API_ID = int(environ.get('API_ID', '26910777'))
+API_HASH = environ.get('API_HASH', '8601f2f24993f6fdbcbac3bb27ceec38')
+BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5665677555').split()]
@@ -68,12 +68,12 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
-REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/_kA.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
-REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
+START_IMG = (environ.get('START_IMG', '')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', '')
+REFER_PICS = (environ.get("REFER_PICS", "")).split() 
+PAYPICS = (environ.get('PAYPICS', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkC52k9E6naqTlieZKWIwJXzrylp2dfRYCqOp5gclow8GhiJCVpVOwIvN&s=10')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkC52k9E6naqTlieZKWIwJXzrylp2dfRYCqOp5gclow8GhiJCVpVOwIvN&s=10'))
+REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡", "💝", "💀", "💌", "✨"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
