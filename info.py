@@ -18,14 +18,14 @@ API_HASH = environ.get('API_HASH', '8601f2f24993f6fdbcbac3bb27ceec38')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5665677555').split()]
-USERNAME = environ.get('USERNAME', "https://t.me/Innocent_babe_dead") # ADMIN USERNAME
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002190681742'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+K2kgCBgaat80YWQ9')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002190681742').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5232142502').split()]
+USERNAME = environ.get('USERNAME', "https://t.me/AJ_TVSERIAL_BOT") # ADMIN USERNAME
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002259385936')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/AJ_TVSERIAL')
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002292107201').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv:learningbots.5yddr.mongodb.net/?retryWrites=true&w=majority&appName=learningbots")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://King:Cobra765592@cluster0.qy4m5.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "learningbots")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 #---------------------------------------------------------------
@@ -35,11 +35,11 @@ LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '0'))
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','0'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','0'))
 LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '0'))
-auth_channel = environ.get('AUTH_CHANNEL', '')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002012393480')
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '0'))
 request_channel = environ.get('REQUEST_CHANNEL', '0')
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/AJ_TVSERIAL') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
@@ -70,7 +70,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 START_IMG = (environ.get('START_IMG', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBm0CRD4wgrLeNoftrYXua_rZxPDlA-q17xl8g3FYWnW_gYgpUyMonOdvf&s=10 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ZgBWtDxpYgbS5jn3-E9WMoNwVUtqgF8QDoA1-DgSiSq9_rgF8w4_zld0&s=10 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_XtrfoxytIynqrGu1UT0FNbBHpXwABQFURcDjF2vPf9Jzt-PAvcinfSa2&s=10')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
-REFER_PICS = (environ.get("REFER_PICS", "")).split() 
+REFER_PICS = (environ.get("REFER_PICS", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb2zovXoYIh-AEvJPdQ1CnA1yJU0l4WP1cJt0fbEgPjML45oeBTqhnejkd&s=10")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkC52k9E6naqTlieZKWIwJXzrylp2dfRYCqOp5gclow8GhiJCVpVOwIvN&s=10')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkC52k9E6naqTlieZKWIwJXzrylp2dfRYCqOp5gclow8GhiJCVpVOwIvN&s=10'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡", "💝", "💀", "💌", "✨"]
