@@ -68,8 +68,8 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', '')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', '')
+START_IMG = (environ.get('START_IMG', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBm0CRD4wgrLeNoftrYXua_rZxPDlA-q17xl8g3FYWnW_gYgpUyMonOdvf&s=10 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ZgBWtDxpYgbS5jn3-E9WMoNwVUtqgF8QDoA1-DgSiSq9_rgF8w4_zld0&s=10 https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_XtrfoxytIynqrGu1UT0FNbBHpXwABQFURcDjF2vPf9Jzt-PAvcinfSa2&s=10')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkC52k9E6naqTlieZKWIwJXzrylp2dfRYCqOp5gclow8GhiJCVpVOwIvN&s=10')).split()
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjkC52k9E6naqTlieZKWIwJXzrylp2dfRYCqOp5gclow8GhiJCVpVOwIvN&s=10'))
